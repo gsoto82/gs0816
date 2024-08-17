@@ -108,15 +108,19 @@ JAKR: Jackhammer (Ridgid) - $2.99/day
 
 API Endpoints
 
-Get All Tools
-URL: /api/tools
-Method: GET
-Description: Returns a list of all tools available for rental.
-
 Get Tool by Code
-URL: /api/tools/{toolCode}
-Method: GET
+URL: api/rental/checkout/
+Query Parameters:
+    toolCode (e.g., "CHNS")
+    rentalDays (e.g., 5)
+    discountPercent (e.g., 10)
+    checkoutDate (e.g., "2023-08-01")
+
+Method: POST
 Description: Returns details of a specific tool based on the tool code.
+
+Example:
+http://localhost:8080/api/rental/checkout?toolCode=JAKD&rentalDays=6&discountPercent=0&checkoutDate=07/02/2020
 
 
 ### Customization and Usage
