@@ -1,5 +1,4 @@
 # Tool Rental Application
-
 ## Overview
 
 The Tool Rental Application is a Spring Boot-based application designed to manage the rental of tools. It supports operations such as storing tool information, calculating rental charges based on specific rules, and generating rental agreements.
