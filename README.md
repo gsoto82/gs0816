@@ -63,7 +63,7 @@ src/
 
 ## Prerequisites
 
-- Java 17 or later
+- Java 18 or later
 - Maven 3.6 or later
 - Docker (optional, for containerized deployment)
 
