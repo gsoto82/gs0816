@@ -1,0 +1,68 @@
+# Maven target directory
+/target/
+
+# IntelliJ IDEA
+/.idea/
+/*.iml
+
+# Eclipse
+/.classpath
+/.project
+/.settings/
+/bin/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+/logs
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
+
+# Spring Boot specific
+/*.war
+/*.jar
+/*.ear
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# MacOS specific files
+*.DS_Store
+
+# Windows specific files
+*.exe
+*.dll
+*.pdb
+*.obj
+*.lnk
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Compiled class files
+*.class
+
+# Generated files
+*.class
+*.war
+*.jar
+/test-classes/
+/build/
+/out/
+/build
+
+# Other
+*.bak
+*.bak~
+*.orig
+*.old
+*.rej
