@@ -73,16 +73,17 @@ src/
 
 ```bash
 
-git clone https://github.com/yourusername/tool-rental.git
+git clone https://github.com/gsoto82/gs0816.git
 cd tool-rental
 
 mvn clean install
 mvn spring-boot:run
 mvn clean package
-java -jar target/toolrental-0.0.1-SNAPSHOT.jar
+java -jar target/gs0816-0.0.1-SNAPSHOT.jar
 
 Accessing the H2 Database Console
-If enabled, you can access the H2 database console at http://localhost:8080/h2-console using the following credentials:
+If enabled, you can access the H2 database console at 
+http://localhost:8080/h2-console using the following credentials:
 
 JDBC URL: jdbc:h2:mem:testdb
 Username: sa
