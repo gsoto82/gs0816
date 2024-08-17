@@ -1,4 +1,4 @@
-package com.infinity.toolRental;
+package com.infinity.toolRental.integration;
 
 
 import com.infinity.toolRental.model.Tool;
