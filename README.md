@@ -16,18 +16,6 @@ Here is a sample README.md file for the Tool Rental project. This file provides 
 
 markdown
 Copy code
-# Tool Rental Application
-
-## Overview
-
-The Tool Rental Application is a Spring Boot-based application designed to manage the rental of tools. It supports operations such as storing tool information, calculating rental charges based on specific rules, and generating rental agreements.
-
-## Features
-
-- **Tool Management**: Store and manage tools including their type, brand, and rental charges.
-- **Rental Agreement Generation**: Generate rental agreements that include details like rental days, discounts, and final charges.
-- **Holiday Considerations**: Account for holidays and weekends in rental charge calculations.
-
 ## Project Structure
 
 src/
