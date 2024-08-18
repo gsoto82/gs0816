@@ -60,6 +60,14 @@ src/
 ├── DatabaseDumpTest.java # Test for dumping database contents
 └── ToolRepositoryDataLoadTest.java # Test for verifying data load on startup
 
+ Generate OpenAPI Documentation (Optional)
+You can also generate the OpenAPI documentation in JSON or YAML format by accessing:
+
+Swagger: 
+http://localhost:8080/swagger-ui/index.html#/checkout-controller
+
+JSON: http://localhost:8080/v3/api-docs
+YAML: http://localhost:8080/v3/api-docs.yaml
 
 ## Prerequisites
 
