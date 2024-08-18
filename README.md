@@ -79,7 +79,8 @@ YAML: http://localhost:8080/v3/api-docs.yaml
 
 ### Clone the Repository
 
-```bash
+[//]: # (```bash)
+# Tool Rental Swagger
 
 git clone https://github.com/gsoto82/gs0816.git
 cd tool-rental
