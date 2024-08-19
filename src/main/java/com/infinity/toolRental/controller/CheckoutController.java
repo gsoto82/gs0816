@@ -15,7 +15,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 @RestController
-@RequestMapping("/api/rental")
+@RequestMapping("/api/v1/rental")
 public class CheckoutController {
 
     private final CheckoutService checkoutService;

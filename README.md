@@ -71,7 +71,7 @@ YAML: http://localhost:8080/v3/api-docs.yaml
 # Tool Rental Swagger
 
 git clone https://github.com/gsoto82/gs0816.git
-cd tool-rental
+cd gs0816
 
 mvn clean install
 mvn spring-boot:run
@@ -118,12 +118,12 @@ Method: POST
 Description: Returns details of a specific tool based on the tool code.
 
 Example:
-http://localhost:8080/api/rental/checkout?toolCode=JAKD&rentalDays=6&discountPercent=0&checkoutDate=07/02/2020
+http://localhost:8080/api/v1/rental/checkout?toolCode=JAKD&rentalDays=6&discountPercent=0&checkoutDate=07/02/2020
 
 
 ### Customization and Usage
 
-- **GitHub URL**: Replace `https://github.com/yourusername/gs0816.git` with the actual URL of your repository.
+- **GitHub URL**: Replace `https://github.com/gsoto82/gs0816.git` with the actual URL of your repository.
 - **Email Address**: Replace `gsoto82@gmail.com` with your actual contact email.
 - **API Endpoints**: Customize the API endpoints section based on the actual endpoints provided by your application.
 - **Testing**: The test descriptions should reflect the actual tests present in your project.
