@@ -112,7 +112,7 @@ Query Parameters:
     toolCode (e.g., "CHNS")
     rentalDays (e.g., 5)
     discountPercent (e.g., 10)
-    checkoutDate (e.g., "2023-08-01")
+    checkoutDate (e.g., "07/02/2020")
 
 Method: POST
 Description: Returns details of a specific tool based on the tool code.
